@@ -1,0 +1,18 @@
+git clone <link do repositório desejado>
+baixa um repositório do Github para a sua máquina
+
+git status
+mostra a situação atual do repositório (se há mudanças, se essas mudanças já foram adicionadas)
+
+git add <arquivo desejado>
+adiciona as mudanças de um arquivo ao track
+
+git add . 
+adiciona TODAS as mudanças realizadas ao track
+
+git commit -m "comentário coerente"
+"encapsula" as mudanças realizadas, preparandoas para o push
+
+git push <branch desejada>
+ex.: git push origin main
+sobe as mudanças para o repositório remoto
